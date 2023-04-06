@@ -1,9 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { useState } from "react";
-import MovieList from "./components/MovieList/MovieList";
-import AddMovie from "./components/AddMovie";
-import Filter from "./components/Filter";
+import MovieList from "./components/MovieUtilities/MovieList";
+import AddMovie from "./components/MovieUtilities/AddMovie";
+import Filter from "./components/MovieUtilities/Filter";
 
 function App() {
   const [keyWords, setKeyWords] = useState("");

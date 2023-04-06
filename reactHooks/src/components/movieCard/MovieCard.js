@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 import StarRatingComponent from "react-star-rating-component";
 import "./movieCard.css";
 
