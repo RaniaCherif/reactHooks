@@ -14,11 +14,11 @@ const RestoCard = ({ el }) => {
           src={el.img}
           style={{
             resizeMode: "cover",
-            height: 200,
-            width: 400,
+            height: "200px",
+            width: "300px",
           }}
         />
-        <Card.Body >
+        <Card.Body>
           <Card.Title className="title" style={{ color: "white" }}>
             {el.title}
           </Card.Title>

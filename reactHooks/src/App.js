@@ -11,27 +11,27 @@ function App() {
   const [movies, setMovies] = useState([
     {
       id: "01",
-      title: "Soul",
+      title: "FURY",
       description:
-        " choices and regretting the existence that he mostly took for granted.",
+        "Fury is a 2014 American war film written and directed by David Ayer, and starring Brad Pitt in the lead role, Shia LaBeouf, Logan Lerman, Michael Peña, Jon Bernthal, Jason Isaacs and Scott Eastwood.",
       rate: 5,
-      img: "https://th.bing.com/th/id/OIP.pqCAF0w6joXw23vSKQX_tgHaK-?pid=ImgDet&rs=1",
+      img: "https://3238leblogdemarvelll-1278.kxcdn.com/wp-content/uploads/2014/10/fury-banniere-brad-pitt.jpg",
     },
     {
       id: "02",
-      title: "Big Hero 6",
+      title: "AQUAMAN",
       description:
-        "n adorable, plus-sized inflatable robot, and prodigy Hiro Hamada (Ryan Potter).",
+        "Aquaman est un film de super-héros américano-australien réalisé par James Wan, sorti en 2018.Il s'agit de la première aventure solo d'Aquaman, déjà apparu brièvement dans Batman v Superman L'Aube de la justice (2016).",
       rate: 4,
-      img: "http://1.bp.blogspot.com/-ivQ1javvMy8/VKWLBesekPI/AAAAAAAAQ84/lNLaBG29vtc/s1600/bighero6personajes.jpg",
+      img: "https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/09/what-we-know-aquaman-2.jpg",
     },
     {
       id: "03",
-      title: "Interstellar",
+      title: "JOHN WICK",
       description:
-        "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "John Wick est un film d'action américain réalisé par Chad Stahelski (aidé par David Leitch bien que non crédité) et sorti en 2014.Il met en scène Keanu Reeves dans le rôle-titre, qui est un ancien tueur à gages contraint.",
       rate: 3,
-      img: "https://th.bing.com/th/id/R.17be8e82b5bbd79b815efce148304bae?rik=tdb0eqneLpYMdA&pid=ImgRaw&r=0",
+      img: "https://global-img.gamergen.com/john-wick-parabellum-images_0900924716.jpg",
     },
   ]);
   const addNewMovie = (newMovie) => {
