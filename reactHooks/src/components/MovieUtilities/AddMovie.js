@@ -16,7 +16,7 @@ const AddMovie = ({ addNewMovie }) => {
     addNewMovie(inputs);
   };
   return (
-    <div>
+    <div className="addmovie">
       <input
         className="movie"
         placeholder="Title"
@@ -41,7 +41,9 @@ const AddMovie = ({ addNewMovie }) => {
         name="rate"
         onChange={handleChange}
       />
-      <button onClick={handleAdd}>Add New Movie</button>
+      <button className="myButton" onClick={handleAdd}>
+        Add New Movie
+      </button>
     </div>
   );
 };
